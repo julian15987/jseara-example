@@ -1,0 +1,91 @@
+.card {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.headerIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  color: #0099d8;
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c2c2c;
+  margin: 0;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.sectionContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.sectionTitle {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #4a4a4a;
+  margin: 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.emphasis {
+  color: #2c2c2c;
+  font-weight: 600;
+}
+
+.formGrid {
+  display: grid;
+  gap: 1rem;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+}
+
+.labelText {
+  font-size: 0.95rem;
+  color: #4a4a4a;
+  font-weight: 500;
+}
+
+.input {
+  height: 2.5rem;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #e5e5e5;
+  padding: 0 0.75rem;
+  font-size: 0.95rem;
+  color: #2c2c2c;
+  background-color: #f8f8f8;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #0099d8;
+  box-shadow: 0 0 0 2px rgba(0, 153, 216, 0.1);
+}
